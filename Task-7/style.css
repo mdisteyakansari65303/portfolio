@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: white;
+}
+.navbar{
+    flex-direction: row;
+    display: flex;
+    position: relative;
+    background: #035569;
+}
+.navbar ul{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 40px;
+}
+.navbar ul li{
+    position: relative;
+    margin: 10px; 
+}
+.navbar ul li a{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    border: 1px solid #941903;
+    padding: 0px 5px;
+    background-color: #98e1f3;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.navbar ul li a:hover{
+    background-color: aqua;
+    color: #ff0000;
+    transition: 1.5s;
+}
+.banner{
+    background-image: url(https://media.istockphoto.com/id/1339107379/photo/one-single-old-plain-bright-incandescent-lightbulb-on-in-a-darkened-room-object-detail.jpg?b=1&s=170667a&w=0&k=20&c=_GBMxRTpEHrYS-oQX9Pu1HLfAr7InQBtCpXyIGvdfX8=);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    background-image: cover;
+    display: flex;
+    background-size: cover;
+    background-position: 100%;
+    
+    
+}
+H1{
+    font-size: 50px;
+    color: black;
+    text-shadow: 3px 3px 3px white;
+}
+.containt{
+    height: 430px;
+    width: 100%;
+    display: flex;
+    background-color: #035569;
+}
+.box{
+    border: 2px solid black;
+    width: 20%;
+    height: 360px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    box-shadow: 4px 5px 7px black;
+    
+}
+.containt1{
+    height: 430px;
+    width: 100%;
+    display: flex;
+    background-color: #0d9b64;
+    margin-top: 8px;
+}
+.box p{
+    color: #ff0000;
+    font-size: 20px;
+}
+.box img{
+    width: 100%;
+    height: 160px;
+}
+.view a{
+    text-decoration: none;
+    color: rgb(3, 3, 173);
+    font-size: 12px;
+
+}
+.footer{
+    background-color: #013542;
+    margin-top: 14px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    font-size: 15px;
+}
+.input_field{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none!important;
+}
+span{
+    align-items: center;
+    justify-content: center;
+    padding-top: 1px;
+    font-size: 27px;
+    color: #ff0000;
+    font-weight: bold;
+    padding: 0px;
+}
+button{
+    margin-top: 20px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    height: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 10px;
+}
+button:hover{
+    box-shadow: 1px 1px 10px white;
+    transition: 0.5s;
+}
+.contact_form{
+    border: 2px solid black;
+    padding: 15px;
+    margin-top: 8px;
+    box-shadow: 3px 3px 4px black;
+    border-radius: 10px;
+    
+}
+.input_field,input,textarea{
+    background: transparent;
+    margin-top: 7px;
+    padding-left: 4px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+}
+.input_field,input,textarea:focus{
+    outline: none;
+    font-size: 17px;
+}
+}
+::placeholder{
+    font-family: 'Times New Roman';
+}
+
+.contact_us{
+    border: 2px solid black;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 20px;
+}
+.follow{
+    font-size: 20px;
+    margin-top: -10px;
+    color: orangered;
+}
+.facebook,i{
+    padding-top: -10px;
+    color: orangered;
+    margin-right: auto;
+    font-size: 30px;
+    margin-left: 140px;
+}
+.facebook p{
+    font-size: 15px;
+    margin-left: -10px;
+    color: black;
+}
+.contact_us2{
+    border: 2px solid white;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
